@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './Pages/Banner';
+import Footer from './Pages/Footer';
 import Header from './Pages/Header';
 import Navbar from './Pages/Navbar';
 import Offers from './Pages/Offers';
@@ -19,7 +20,7 @@ function App() {
       <Packages></Packages>
       <Reviews></Reviews>
       <Offers></Offers>
-      <h1>Footer</h1>
+      <Footer></Footer>
     </div>
   );
 }
