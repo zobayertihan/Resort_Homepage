@@ -2,6 +2,7 @@ import './App.css';
 import Banner from './Pages/Banner';
 import Header from './Pages/Header';
 import Navbar from './Pages/Navbar';
+import Packages from './Pages/Packages';
 import Reserve from './Pages/Reserve';
 import Resort from './Pages/Resort';
 
@@ -13,7 +14,7 @@ function App() {
       <Banner></Banner>
       <Reserve></Reserve>
       <Resort></Resort>
-      <h1>Packages Caurosel</h1>
+      <Packages></Packages>
       <h1>Reviews</h1>
       <h1>Offers</h1>
       <h1>Footer</h1>
