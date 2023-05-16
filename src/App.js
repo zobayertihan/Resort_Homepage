@@ -2,9 +2,11 @@ import './App.css';
 import Banner from './Pages/Banner';
 import Header from './Pages/Header';
 import Navbar from './Pages/Navbar';
+import Offers from './Pages/Offers';
 import Packages from './Pages/Packages';
 import Reserve from './Pages/Reserve';
 import Resort from './Pages/Resort';
+import Reviews from './Pages/Reviews';
 
 function App() {
   return (
@@ -15,8 +17,8 @@ function App() {
       <Reserve></Reserve>
       <Resort></Resort>
       <Packages></Packages>
-      <h1>Reviews</h1>
-      <h1>Offers</h1>
+      <Reviews></Reviews>
+      <Offers></Offers>
       <h1>Footer</h1>
     </div>
   );
