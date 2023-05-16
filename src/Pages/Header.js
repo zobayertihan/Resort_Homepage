@@ -1,21 +1,34 @@
 import React from 'react';
+import { AiFillLinkedin, AiOutlineInstagram, AiOutlineTwitter, AiTwotonePhone } from "react-icons/ai";
+import { FiMail } from "react-icons/fi";
+import { FaFacebook, FaUserAlt } from "react-icons/fa";
+import { CiLock } from "react-icons/ci";
 
 
 const Header = () => {
     return (
-        <div className='bg-black text-white'>
-            <div className='flex justify-between px-5 py-2'>
-                <div className='flex gap-2'>
-                    <h1>Cell</h1>
-                    <h1>Email</h1>
+        <div className='bg-[#3a4190] text-white border-b-2 border-black'>
+            <div className='flex justify-between px-20 py-2'>
+                <div className='flex gap-5'>
+                    <div className='flex items-center gap-2'>
+                        <AiTwotonePhone className='text-white' />
+                        <h1>+8801762554444</h1>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                        <FiMail />
+                        <h1>dhakadreamlandpark@gmail.com</h1>
+                    </div>
                 </div>
-                <div className='flex gap-2'>
-                    <h1>Facebook</h1>
-                    <h1>Instagram</h1>
-                    <h1>LinkedIn</h1>
-                    <h1>Twitter</h1>
-                    <button className='rounded-full bg-white text-black px-2'>Login</button>
-                    <button className='rounded-full bg-white text-black px-2'>Sign Up</button>
+                <div className='flex gap-5 items-center'>
+                    <FaFacebook className='text-lg' />
+                    <AiOutlineInstagram className='text-lg' />
+                    <AiFillLinkedin className='text-lg' />
+                    <AiOutlineTwitter className='text-lg' />
+                    <div className='flex gap-3 items-center'>
+                        <button className='rounded-full bg-white text-[#3a4190] flex justify-center items-center gap-2 px-3 py-1'> <CiLock className='text-sm' /><span>  Login</span></button>
+                        <button className='rounded-full bg-[#2a3289] text-white flex justify-center items-center gap-2 px-3 py-1'><FaUserAlt className='text-sm' /><span>  Sign Up</span></button>
+                    </div>
+
                 </div>
             </div>
         </div>
