@@ -45,6 +45,8 @@
     background-size: cover;
     background-position: center;
     opacity: 0.7;
+    background-blend-mode: multiply;
+    background-color: rgba(2, 2, 164, 0.7);
 }
 
 .bg-image3>* {
