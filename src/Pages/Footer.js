@@ -41,15 +41,15 @@ const Footer = () => {
                 <div className='flex flex-col justify-start items-start gap-5'>
                     <h1 className='text-2xl font-bold pt-5'>Don't Miss A Thing</h1>
                     <p className='w-3/4 pe-5'>Get update to special deals and exclusive offers. Sign up to our newsletter!</p>
-                    <div className='relative pt-8'>
-                        <input className='border rounded-full py-2 pe-20 ps-3' type="text" name="" id="" placeholder='Your Email Address' />
-                        <div className='absolute top-9 right-1'>
-                            <button className='rounded-full bg-[#3a4190] text-white text-sm font-bold px-3 py-2'>Subscribe</button>
+                    <div className='relative flex items-center justify-center'>
+                        <input className='border rounded-full pe-20 ps-3' type="text" name="" id="" placeholder='Your Email Address' />
+                        <div className='absolute top-0 right-0'>
+                            <button className='rounded-full bg-[#3a4190] text-white text-sm font-bold px-3 py-0.5'>Subscribe</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <hr className='px-20 py-2' />
+            <hr className='px-20' />
             <h1 className='text-center text-white'>Copyright 2022 <span className='font-bold'>Dhaka Resort.</span> All rights reserved.</h1>
         </div>
     );

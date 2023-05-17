@@ -54,15 +54,15 @@
     z-index: 1;
 }
 
-.logo {
+/* .logo {
     position: absolute;
     transform: translate(1400%, 500%);
-}
+} */
 
-.button {
+/* .button {
     position: absolute;
     transform: translate(340%, 750%);
-}
+} */
 
 .img-rgblayer:after {
     content: '';

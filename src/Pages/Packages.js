@@ -7,7 +7,7 @@ const Packages = () => {
     return (
         <div className='bg-image2 py-5'>
             <div className='flex flex-col' >
-                <div className='flex justify-around items-center p-10'>
+                <div className='flex justify-center items-center p-10 gap-96'>
                     <h1 className='text-[#3a4190] text-2xl font-bold'>FIND OUR POPULAR PACKAGES</h1>
                     <div className='flex gap-10'>
                         <button><AiOutlineArrowLeft className='text-black text-xl' /></button>
