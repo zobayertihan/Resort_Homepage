@@ -63,7 +63,6 @@ const Reviews = () => {
                                     <RiSingleQuotesL className="absolute top-0 -left-5 text-gray-600 text-8xl"></RiSingleQuotesL>
                                     <p className="text-center">{testimonial.quote}</p>
                                     <RiSingleQuotesR className="absolute bottom-0 right-0 text-gray-600 text-8xl"></RiSingleQuotesR>
-
                                 </div>
                                 <div className="relative flex justify-center items-center max-w-md mx-auto p-10">
                                     <img
