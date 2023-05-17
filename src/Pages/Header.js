@@ -25,8 +25,8 @@ const Header = () => {
                     <AiFillLinkedin className='text-lg' />
                     <AiOutlineTwitter className='text-lg' />
                     <div className='flex gap-3 items-center'>
-                        <button className='rounded-full bg-white text-[#3a4190] flex justify-center items-center gap-2 px-3 py-1'> <CiLock className='text-sm' /><span>  Login</span></button>
-                        <button className='rounded-full bg-[#2a3289] text-white flex justify-center items-center gap-2 px-3 py-1'><FaUserAlt className='text-sm' /><span>  Sign Up</span></button>
+                        <button className='rounded-full bg-white text-[#3a4190] font-bold flex justify-center items-center gap-2 px-3 py-1'> <CiLock className='text-sm' /><span>  Login</span></button>
+                        <button className='rounded-full bg-[#2a3289] text-white font-bold flex justify-center items-center gap-2 px-3 py-1'><FaUserAlt className='text-sm' /><span>  Sign Up</span></button>
                     </div>
 
                 </div>
