@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <Navbar className='fixed'></Navbar>
+      <Navbar></Navbar>
       <Banner></Banner>
       <Reserve></Reserve>
       <Resort></Resort>

@@ -2,11 +2,11 @@ import React from 'react';
 
 const Offers = () => {
     return (
-        <div className='bg-image'>
-            <h1 className='text-center text-white'>DISCOVER SPECIAL OFFERS</h1>
-            <p className='text-center text-white'>Make sure to check out these special promotions</p>
-            <div className='flex justify-center'>
-                <button className='rounded-full bg-white text-black px-2'>VIEW ALL OFFERS</button>
+        <div className='bg-image3 mx-auto h-[200px] py-10'>
+            <h1 className='text-center text-white font-bold text-3xl p-10'>DISCOVER SPECIAL OFFERS</h1>
+            <p className='text-center text-white p-5'>Make sure to check out these special promotions</p>
+            <div className='flex justify-center pb-20'>
+                <button className='rounded-full bg-white text-sm text-[#3a4190] px-8 py-4 font-bold'>VIEW ALL OFFERS</button>
             </div>
         </div>
     );
